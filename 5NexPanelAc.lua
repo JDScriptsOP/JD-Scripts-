@@ -68,7 +68,7 @@ MinusButton.TextSize = 30
 
 MinusButton.MouseButton1Click:Connect(function()
     ScreenGui:Destroy()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/jaradawxdeiton-web/Script-OP-JD/refs/heads/main/3Circlesan.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JDScriptsOP/JD-Scripts-/main/3CircleAc.lua"))()
 end)
 
 -- 3. CONFIGURACIÓN DEL MARCO DE CONFIRMACIÓN
