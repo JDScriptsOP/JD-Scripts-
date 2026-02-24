@@ -60,7 +60,7 @@ MinusButton.MouseButton1Click:Connect(function()
     borrandoConMenos = true -- Cerramos el candado
     
     ScreenGui:Destroy() -- Borramos el marco al instante
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/jaradawxdeiton-web/Script-OP-JD/refs/heads/main/3Circlesan.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JDScriptsOP/JD-Scripts-/main/3CircleAc.lua"))()
 end)
 
 -- 2. BOTÓN "SIGUIENTE PÁGINA" (SIN BLOQUEO)
